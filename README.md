@@ -47,6 +47,8 @@ key to checkout the repository. It will recreate the group structure in
 directories, so in our example `tools/java/foobar` will be checked out
 as `/home/my-user/my-projects/tools/java/foobar`.
 
+(yup, it has some UI to use in terminal, not just commands)
+
 If you use the helper script added to `.bashrc` or `.zshrc` it will also
 `cd` to directory. By default script will also try to start Intellij to
 open the project, but this behavior is easy to disable (remove one
