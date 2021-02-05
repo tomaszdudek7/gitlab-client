@@ -1,15 +1,15 @@
 # Gitlab Client - Search and download git lab repo!
 
 Do you hate clicking through gitlab just to copy the link
-to repository so you can clone it? If you are me, then you also
-realize you need to make some directories because you try to keep
+to repository so you can clone it? If you are me, you also realize
+then you need to make some directories because you try to keep
 things organized - after all, you have actually more repositories
 to checkout than you would want.
 
 Let this script do this annoying work for you!
 
-Using client is simple. You put the name of the command (feel free
-to customize it, but choosed `project`), then name of the gitlab
+Using client is simple. You put the name of the command - `project` if
+using provided helper script - then the name of the gitlab
 instance you want to connect to (for example `work`):
 
 ```
@@ -55,6 +55,10 @@ obvious line after you paste the script into the `rc` file).
 Obviously next time you checkout something from that `work` gitlab it
 won't ask for configuration. Config is saved in `~/.gitlab-client.json`
 and if you want you can also crete this file manually.
+
+This script can work with multiple instances of gitlab! It wasn't checked
+with cloud gitlab though, so if you can confirm it's runnig with it that would
+be great!
 
 ## Build and install
 
